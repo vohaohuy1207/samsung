@@ -1,0 +1,10 @@
+@mixin text-gradient($background) {
+    background: $background;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@mixin background-image($url, $position, $size){
+    background: url(#{$url}) no-repeat #{$position};
+    background-size: $size;
+}

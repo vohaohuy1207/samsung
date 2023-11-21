@@ -1,0 +1,12 @@
+@mixin sticky-position($position, $offset) {
+    .sticky-#{$position} {
+        position: sticky;
+        @if ($position == "top") {
+            top: $offset;
+        }
+
+        @if ($position == "bottom") {
+            bottom: $offset;
+        }
+    }
+}

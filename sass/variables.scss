@@ -1,0 +1,68 @@
+//scss-docs-start color-variable
+$opacity: 1;
+
+$titan: linear-gradient(90deg, #7B7873 0%, #BABCAE 100%);
+
+
+//white
+$white-50:                    rgba(255, 255, 255, 0.50);
+$white-70:                      rgba(255, 255, 255, 0.70)    ;       
+$white-100:                     rgba(255, 255, 255, 1);
+
+//black
+$black-100:                    #000;
+
+// gray 
+$gray-100:                     #F8F9FA;
+$gray-200:                     #EDEEEF;
+$gray-300:                     #E1E4E6;
+$gray-400:                     #CBD1D6;
+$gray-500:                     #939CA3; 
+$gray-600:                     #6A737A;
+$gray-700:                     #444B52;
+$gray-800:                     #32373D;
+$gray-900:                     #212529;
+ 
+// primary 
+$primary-100:                  #FFEBEB;
+$primary-400:                  #E55055;
+$primary-500:                  #CB1C22;
+
+//link 
+$link-400:                     #4391FB;
+$link-500:                     #0664F9;
+$link-600:                     #044DD6;
+
+//warning 
+$warning-300:                  #FBE48E;
+
+//danger 
+$danger-300:                   #FEB7B2;                    
+
+//success
+$success-700:                  #2F855A;
+$success-800:                  #276749;
+$success-500:                  #48BB78; 
+//scss-docs-end color-variable
+
+// Prefix for :root CSS variables
+$variable-prefix:               fs- !default; // Deprecated for the shorter `$prefix`
+$prefix:                        $variable-prefix;
+
+// scss-docs-start font-variables
+$font-family-arial:             'Arial', 'Helvetica', 'sans-serif' !default;
+$font-family-roboto:            Roboto, $font-family-arial;
+$font-family-montserrat:        Montserrat, $font-family-roboto;
+$font-family-sf-pro-display:    SFProDisplay, $font-family-roboto;
+$font-size-default:             16px !default;
+$font-weight-normal:            400; 
+// scss-docs-end font-variables
+
+//docs radius-variables
+$rounded: 1000px;
+
+
+//object fit 
+$object-fit-cover: cover;
+$object-fit-contain: contain;
+
